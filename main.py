@@ -22,6 +22,7 @@ try:
 except KeyboardInterrupt:
     pass
 except OSError as e:
+    print(e)
     pass
 
 print("Shutting Down...\n")
