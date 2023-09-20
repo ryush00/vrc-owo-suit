@@ -20,6 +20,8 @@ try:
                      daemon=True).start()
     input("Press any key to exit\n")
 except KeyboardInterrupt:
-    print("Shutting Down...\n")
-except OSError:
     pass
+except OSError as e:
+    pass
+
+print("Shutting Down...\n")
